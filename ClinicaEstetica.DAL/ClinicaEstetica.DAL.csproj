@@ -45,5 +45,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioDAL.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClinicaEstetica.DTO\ClinicaEstetica.DTO.csproj">
+      <Project>{ADABB3E3-610E-4A9D-80A6-23C7DA3B56CC}</Project>
+      <Name>ClinicaEstetica.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
