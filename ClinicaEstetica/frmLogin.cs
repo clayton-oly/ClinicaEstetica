@@ -25,12 +25,13 @@ namespace ClinicaEstetica
             if (usuarioDTO != null)
             {
                 MessageBox.Show($"Bem vindo(a) {usuarioDTO.Nome}", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frmUsuarios frmUsuarios = new frmUsuarios();
+                frmUsuarios.Show();
             }
             else
             {
                 MessageBox.Show($"Não foi possivel efetuar o login, tente novamente!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-
 
         }
     }
